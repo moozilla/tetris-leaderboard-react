@@ -1,0 +1,21 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+    },
+    "extends": [
+        "plugin:prettier/recommended",
+        "prettier/flowtype",
+        "prettier/react",
+        "prettier/standard"
+      ],
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": ["off"]
+    }
+}
